@@ -8,13 +8,10 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
+gem 'angularjs-rails'
 
 group :doc do
   gem 'sdoc', require: false
-end
-
-group :assets do
-  gem 'angularjs-rails'
 end
 
 # Use ActiveModel has_secure_password
